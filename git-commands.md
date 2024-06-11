@@ -16,9 +16,6 @@
 ### Delete a remote branch
 `git push origin -d <name-of-branch>`
 
-### Delete a local branch forced
-`git push origin -D <name-of-branch>`
-
 ### Create new branch and switch to it
 `git checkout -b <name-of-branch>`
 
