@@ -1,4 +1,0 @@
-this is test
-this is from 2nd branch
-
-this is 2nd
