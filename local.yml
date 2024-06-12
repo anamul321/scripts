@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+  - name: Install Builder
+    package:
+      name: gnome-builder
+      state: present
+
+  - name: Enable Night Light
+    dconf:
+      key: /org/gnome/settings-daemon/plugins/color/night-light-enabled
+      value: true
