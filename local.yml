@@ -5,5 +5,10 @@
 
   tasks:
   - name: Install Builder
-    flatpak_apps_present:
-      - org.gnome.Builder
+    package:
+      name: gnome-builder
+      state: present
+
+  - name: Install Spotify
+    become: yes
+    command: flatpak install --assumeyes flathub com.spotify.Client
