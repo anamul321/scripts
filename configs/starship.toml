@@ -1,3 +1,5 @@
+#copy this in ~/config/starship.toml
+
 command_timeout = 2000
 
 format = """
